@@ -1,0 +1,199 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Tabaret.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img{
+  width: 150px;
+}
+.navigation-links{
+  flex: 1;
+  text-align: right;
+}
+.navigation-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.navigation-links ul li a{
+  color: rgb(255,255,255);
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.navigation-links ul li::after{
+  content: "";
+  width: 0;
+  height: 2px;
+  background: rgb(138, 8, 97);
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.navigation-links ul li:hover::after{
+  width: 100%;
+
+}
+
+.Homepage-text{
+  width: 90%;
+  color: rgb(255,255,255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.Homepage-text h1{
+  font-size: 62px;
+}
+
+.Homepage-text p{
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: rgb(255,255,255)
+}
+
+.Learn-more {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(255,255,255);
+  border: 1px solid rgb(255,255,255);
+  padding: 12px 34px;
+  background: transparent;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.Learn-more:hover{
+  border: 1px solid rgb(138, 8, 97);
+  background: rgb(138, 8, 97);
+  transition: 0.5s;
+
+}
+
+
+/*-------LOWER PART OF THE WEBPAGE STYLING--------*/
+
+.main-info{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1{
+  font-size: 36px;
+  font-weight: 600;
+
+}
+
+p{
+  color: rgb(119,119,119);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+
+}
+
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.offer-col{
+  flex-basis: 31%;
+  background: rgba(255, 162, 225, 0.438);
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.35s;
+}
+
+h3{
+  text-align: center;
+  font-weight:600;
+  margin: 10px;
+}
+
+.offer-col:hover{
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.15);
+
+}
+
+.features{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.features-column{
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.features-column img{
+  width: 100%;
+  height: 65%;
+  border-radius:10px;
+  display: flex;
+  vertical-align: bottom;
+}
+
+.features-column p{
+  padding: 0;
+}
+
+.features-column h3{
+  margin-top: 16px;
+  margin-bottom: 15px;
+}
+
+.end-of-website{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  background: rgba(255, 162, 225, 0.438);
+  border-top: gray;
+  border-width: 10px;
+}
+
+.end-of-website h4{
+  margin-bottom: 25px;
+  margin-top: 30px;
+  font-weight: 550;
+}
+
+.social-icons .fab{
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 0 16px;
+
+}

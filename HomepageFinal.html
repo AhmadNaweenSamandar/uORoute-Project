@@ -1,0 +1,123 @@
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "Homepage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>UoRoute</title>
+
+
+  </head>
+  <body>
+    <section class = "header">
+      <nav>
+          <a href="HomepageFinal.html"><img src="logo_uoroute.png"></a>
+          <div class="navigation-links">
+            <ul>
+              <li><a href="HomepageFinal.html">HOMEPAGE</a></li>
+              <li><a href="group_project.html" target = "_blank">ABOUT US</a></li>
+              <li><a href="seconddesign.html" target = "_blank">HOW TO USE</a></li>
+              <li><a href="index.html" target = "_blank">CONTACT</a></li>
+            </ul>
+          </div>
+      </nav>
+
+    <div class = "Homepage-text"> 
+      <h1>Welcome to uORoute</h1>
+      <p>Traversing uOttawa's campus is now easier than ever! Only with just one app, <br> you will never have to worry about getting lost ever
+        again.
+      </p>
+
+      <a href="" class = "Learn-more" id="Learn-morebtn">Learn more</a>
+    </div>
+    </section>
+
+
+    <section class = "main-info">
+      <h1>What we Offer</h1>
+      <p>
+        Multiple features avaliable to you, all from one app.
+      </p>
+
+      <div class="row">
+        <div class="offer-col">
+          <h3>Data Sync Campus Navigation</h3>
+          <p> Effortlessly navigate campus with real-time,
+            synchronized data at your fingertips, guiding you to key locations, 
+            events, and services for an optimized university experience.</p>
+        </div>
+
+        <div class="offer-col">
+          <h3>Class Schedule with uoZone</h3>
+          <p>Stay organized and on track with your academic journey by accessing your personalized class schedule through uoZone. 
+            Effortlessly view course timings, locations, and any updates, ensuring you're always prepared for each semester.</p>
+        </div>
+
+        <div class="offer-col">
+          <h3>Seamless Schedule Sync with uoZone</h3>
+          <p>Keep in track with your schedule, from anywhere, all from your phone. </p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class = "features">
+      <h1>Our Features</h1>
+      <p>Multiple tools at your fingertips.</p>
+
+      <div class = "row">
+        <div class = "features-column">
+          <img src="clock-image-transparent-background-14.png">
+          <h3>Class Reminders</h3>
+          <p>Stay on top of your schedule with timely class reminders that notify you ahead of time, ensuring you never miss an important lecture or meeting.</p>
+
+        </div>
+        <div class = "features-column">
+          <img src="Data-transfer-sync-information-512.webp">
+          <h3>Information Sync</h3>
+          <p>Seamlessly sync your schedule and location data across devices for a consistent and reliable experience, so you can access your information anytime, anywhere.</p>
+
+        </div>
+        <div class = "features-column">
+          <img src="navi_icon.png">
+          <h3>Campus Navigation</h3>
+          <p>Effortlessly find your way around campus with our intuitive navigation tool, designed to provide the fastest and most efficient routes to your classes, events, and other key locations.</p>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class = "end-of-website">
+      <h4>For More Information</h4>
+      <p>Visit our social media platforms:</p>
+
+      <div class = "social-icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+        
+      </div>
+
+    </section>
+
+
+
+  </body>
+</html>
+
+
+
+<script>
+  document.getElementById('Learn-morebtn').onclick = function(event) {
+    event.preventDefault();
+
+    document.querySelector('.main-info').scrollIntoView({
+      behavior: 'smooth'
+    });
+  };
+</script>
